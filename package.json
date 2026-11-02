@@ -1,0 +1,13 @@
+{
+  "name": "build-a-prime-number-checker-module",
+  "version": "1.0.0",
+  "description": "prime number finder",
+  "keywords": ["prime", "numbers", "math", "module"],
+  "license": "MIT",
+  "author": "Chaggy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node prueba.js"
+  }
+}
