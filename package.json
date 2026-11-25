@@ -1,13 +1,33 @@
 {
   "name": "build-a-prime-number-checker-module",
   "version": "1.0.0",
-  "description": "prime number finder",
-  "keywords": ["prime", "numbers", "math", "module"],
+  "description": "Módulo Node.js para verificar si un número entero es primo.",
+  "keywords": [
+    "prime",
+    "numbers",
+    "math",
+    "module"
+  ],
   "license": "MIT",
-  "author": "Chaggy",
+  "author": "Diego Alejandro Aguilar López",
   "type": "commonjs",
   "main": "index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "start": "node prueba.js"
-  }
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaggyEKTPK/Build-A-Prime-Number-Checker-Module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChaggyEKTPK/Build-A-Prime-Number-Checker-Module/issues"
+  },
+  "homepage": "https://github.com/ChaggyEKTPK/Build-A-Prime-Number-Checker-Module#readme"
 }
